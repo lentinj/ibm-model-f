@@ -1,0 +1,68 @@
+# Required for UK keyboard
+remapblock
+    BACK_QUOTE BACKSLASH
+    BACKSLASH EUROPE_2
+endblock
+
+# Swap Left Ctrl & Alt around so they're closer to where I expect
+remapblock
+    LCTRL LALT
+    LALT LCTRL
+endblock
+
+# Caps Lock -> Windows key
+remapblock
+    CAPS_LOCK RGUI
+endblock
+
+# Scroll Lock -> Enable select 1
+ifselect any
+remapblock
+    SCROLL_LOCK SELECT_1
+endblock
+
+# Select 1: numpad -> Arrows
+ifselect 1
+remapblock
+    PAD_1 END
+    PAD_2 DOWN
+    PAD_3 PAGE_DOWN
+    PAD_4 LEFT
+    PAD_6 RIGHT
+    PAD_7 HOME
+    PAD_8 UP
+    PAD_9 PAGE_UP
+    PAD_PLUS ENTER
+endblock
+
+# remapblock
+#     F1 MEDIA_MUTE
+#     F3 MEDIA_VOLUME_UP
+#     F5 MEDIA_VOLUME_DOWN
+#     F2 BACK_QUOTE
+#     F10 LCTRL
+# endblock
+
+# remapblock
+#     F9 FN1
+# endblock
+# 
+# layerblock
+#    FN1 1
+# endblock
+# 
+# remapblock
+#     layer 1
+#     1 F1
+#     2 F2
+#     3 F3
+#     4 F4
+#     5 F5
+#     6 F6
+#     7 F7
+#     8 F8
+#     9 F9
+#     0 F10
+#     MINUS F11
+#     EQUAL F12
+# endblock
