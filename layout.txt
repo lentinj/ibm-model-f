@@ -1,3 +1,5 @@
+# ./tools/bin/scas layout.txt layout.bin && ./tools/bin/scwr layout.bin
+
 # Required for UK keyboard
 remapblock
     BACK_QUOTE BACKSLASH
@@ -28,4 +30,8 @@ remapblock
     PAD_7 BACK_QUOTE
     PAD_8 HOME
     PAD_9 PAGE_UP
+    PAD_MINUS F11
+    PAD_PLUS F12
+    PAD_0 INSERT
+    PAD_PERIOD DELETE
 endblock
