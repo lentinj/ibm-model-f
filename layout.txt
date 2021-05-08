@@ -15,7 +15,7 @@ remapblock
     CAPS_LOCK RGUI
 endblock
 
-# Mangled numpad
+# Numpad --> Inverted T layout
 remapblock
     # Pad asterix == print screen
     PAD_ASTERIX LEFT
@@ -35,11 +35,11 @@ remapblock
     PAD_PERIOD DELETE
 endblock
 
+# On pressing num-lock, turn back to numpad
 ifselect any
 remapblock
     NUM_LOCK SELECT_1
 endblock
-
 ifselect 1
 remapblock
     PAD_ASTERIX PAD_ASTERIX
