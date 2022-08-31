@@ -55,5 +55,5 @@ remapblock
     PAD_MINUS PAD_MINUS
     PAD_PLUS PAD_PLUS
     PAD_0 0
-    PAD_PERIOD PAD_PERIOD
+    PAD_PERIOD PERIOD
 endblock
