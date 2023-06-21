@@ -17,7 +17,7 @@ Run the following to download and unpack Soarer 1.12::
 Installing to an Leonardo Pro Micro
 ----------------------------------
 
-Use avrdude as per guid above to flash ``soarer/firmware/Soarer_at2usb_v1.12_atmega32u4.hex``.
+Use avrdude as per guide above to flash ``soarer/firmware/Soarer_at2usb_v1.12_atmega32u4.hex``.
 
 Wiring into XT keyboard
 -----------------------
